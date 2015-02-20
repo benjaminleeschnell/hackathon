@@ -2,8 +2,13 @@
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 @font-face {
-    font-family: 'adamas';
-    src: url(../fonts/adamas.otf);
+  font-family: 'adamas';
+  src: url(../fonts/adamas.eot); /* IE9 Compat Modes */
+  src: url(../fonts/adamas.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+       url(../fonts/adamas.woff2) format('woff2'), /* Super Modern Browsers */
+       url(../fonts/adamas.woff) format('woff'), /* Pretty Modern Browsers */
+       url(../fonts/adamas.ttf)  format('truetype'), /* Safari, Android, iOS */
+       url(../fonts/adamas.svg#svgFontName) format('svg'); /* Legacy iOS */
 }
 
 $primary-font: 'Open Sans';
