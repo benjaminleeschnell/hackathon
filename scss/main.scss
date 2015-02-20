@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:200);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@font-face {
+    font-family: 'adamas';
+    src: url(../fonts/adamas);
+}
+
+$primary-font: 'Open Sans';
+$header-font: 'Dosis';
+
+$primary-color: #51A8B8;
+$secondary-color: #852529;
+$third-color: #698927;
+
+body {
+background-color: black;
+}
+
+.hero {
+	height: 59vh;
+	width: 100%;
+	background-color: black;
+
+	h3 {
+		color: #51A8B8;
+		font-size: 2.4em;
+		font-family: $header-font;
+		text-align: center;
+		line-height: 2.5;
+		margin-top: 10%;
+		&:hover {
+			color: #698927;
+		}	
+	}
+
+	h1 {
+		color: white;
+		font-family: 'adamas';
+		font-size: 5em;
+		text-align: center;
+		line-height: 2rem;
+		margin-top: 6%;
+		margin-bottom: 2%;
+		&:hover {
+			color: #852529;
+		}
+	}
+}
+
+.pic {
+	text-align: center;
+	margin-top: -50px;
+
+	img {max-width: 100px;
+	}	
+}
+
+.story {
+	margin-top: -50px;
+	h4 {
+		color: $primary-color;
+	}
+	p {
+		color: white;
+	}
+}
+
+/* Media Queries */
+
+@media only screen and (orientation: landscape) { 
+	.story {margin-top: 22%;}
+}
