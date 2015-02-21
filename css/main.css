@@ -20,7 +20,7 @@ body {
     font-family: "Dosis";
     text-align: center;
     line-height: 2.5;
-    margin-top: 10%; }
+    margin-top: 5%; }
     .hero h3:hover {
       color: #698927; }
   .hero h1 {
@@ -29,19 +29,19 @@ body {
     font-size: 5em;
     text-align: center;
     line-height: 2rem;
-    margin-top: 6%;
+    margin-top: 2%;
     margin-bottom: 2%; }
     .hero h1:hover {
       color: #852529; }
 
 .pic {
   text-align: center;
-  margin-top: -50px; }
+  margin-top: 20px; }
   .pic img {
     max-width: 100px; }
 
 .story {
-  margin-top: -50px; }
+  margin-top: -20px; }
   .story h4 {
     color: #51A8B8; }
   .story p {
@@ -50,6 +50,6 @@ body {
 /* Media Queries */
 @media only screen and (orientation: landscape) {
   .story {
-    margin-top: 22%; } }
+    margin-top: 26%; } }
 
 /*# sourceMappingURL=main.css.map */

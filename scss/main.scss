@@ -33,7 +33,7 @@ background-color: black;
 		font-family: $header-font;
 		text-align: center;
 		line-height: 2.5;
-		margin-top: 10%;
+		margin-top: 5%;
 		&:hover {
 			color: #698927;
 		}	
@@ -45,7 +45,7 @@ background-color: black;
 		font-size: 5em;
 		text-align: center;
 		line-height: 2rem;
-		margin-top: 6%;
+		margin-top: 2%;
 		margin-bottom: 2%;
 		&:hover {
 			color: #852529;
@@ -55,14 +55,13 @@ background-color: black;
 
 .pic {
 	text-align: center;
-	margin-top: -50px;
-
+	margin-top: 20px;
 	img {max-width: 100px;
 	}	
 }
 
 .story {
-	margin-top: -50px;
+	margin-top: -20px;
 	h4 {
 		color: $primary-color;
 	}
@@ -74,5 +73,5 @@ background-color: black;
 /* Media Queries */
 
 @media only screen and (orientation: landscape) { 
-	.story {margin-top: 22%;}
+	.story {margin-top: 26%;}
 }
