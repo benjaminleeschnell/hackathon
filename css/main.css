@@ -41,12 +41,13 @@ body {
     max-width: 100px; }
 
 .first img {
+  display: block;
   max-width: 100px;
   position: fixed;
   right: 5%;
   margin-top: 50px; }
 
-.second img {
+.second {
   display: none; }
 
 .story h4 {
@@ -63,10 +64,10 @@ body {
     font-family: "Open Sans"; }
 
 /* Media Queries */
-@media only screen and (max-width: 714px) and (orientation: landscape) {
+@media only screen and (max-width: 736px) and (orientation: landscape) {
   .story {
     margin-top: 26%; } }
-@media only screen and (min-width: 715px) {
+@media only screen and (min-width: 737px) {
   .hero h1 {
     font-size: 10rem;
     margin-top: 5%; }
@@ -78,21 +79,22 @@ body {
     .pic img {
       max-width: 250px;
       margin-top: 2%; } }
-@media only screen and (min-width: 715px) and (orientation: landscape) {
+@media only screen and (min-width: 737px) and (orientation: landscape) {
   .hero h1 {
     font-size: 15rem; }
   .hero h3 {
     font-size: 7.3rem; }
 
   .story {
-    margin-top: 30%; } }
-.first img {
-  display: none; }
+    margin-top: 30%; }
 
-.second img {
-  display: block;
-  max-width: 100px;
-  position: fixed;
-  right: 5%; }
+  .first {
+    display: none; }
+
+  .second {
+    display: block;
+    max-width: 100px;
+    position: fixed;
+    right: 5%; } }
 
 /*# sourceMappingURL=main.css.map */
