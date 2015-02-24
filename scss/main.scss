@@ -60,8 +60,7 @@ background-color: black;
 	}	
 }
 
-.first img {
-	display: block;
+.signup img {
 	max-width: 100px;
 	position: fixed;
 	right: 5%;
@@ -73,13 +72,16 @@ background-color: black;
 }
 
 .story {
+	margin-top: 10%;
 	h4 {
 		color: $primary-color;
 		font-family: $primary-font;
+		font-size: 2rem;
 	}
 	p {
 		color: $secondary-color;
 		font-family: $primary-font;
+		font-size: 1.3rem;
 	}
 }
 
@@ -112,7 +114,6 @@ background-color: black;
 			max-width: 250px;
 			margin-top: 2%;
 		}
-	}
 }
 
 
@@ -127,15 +128,16 @@ background-color: black;
 	}
 	.story {
 		margin-top: 30%;
+		}
+	.signup img {
+		margin-top: 200px;
+		}
 	}
-	.first {
-		display: none;
-		}
-		.second {
-		display: block;
-		max-width: 100px;
-		position: fixed;
-		right: 5%;
-		}
+}
+
+@media only screen and (min-width: 1500px) {
+	.signup img {
+		margin-top: 350px;
+	}
 }
 

@@ -40,8 +40,7 @@ body {
   .pic img {
     max-width: 100px; }
 
-.first img {
-  display: block;
+.signup img {
   max-width: 100px;
   position: fixed;
   right: 5%;
@@ -50,12 +49,16 @@ body {
 .second {
   display: none; }
 
-.story h4 {
-  color: #51A8B8;
-  font-family: "Open Sans"; }
-.story p {
-  color: #852529;
-  font-family: "Open Sans"; }
+.story {
+  margin-top: 10%; }
+  .story h4 {
+    color: #51A8B8;
+    font-family: "Open Sans";
+    font-size: 2rem; }
+  .story p {
+    color: #852529;
+    font-family: "Open Sans";
+    font-size: 1.3rem; }
 
 .info {
   margin-bottom: 20%; }
@@ -79,7 +82,7 @@ body {
     .pic img {
       max-width: 250px;
       margin-top: 2%; } }
-@media only screen and (min-width: 737px) and (orientation: landscape) {
+@media only screen and (min-width: 737px) and (min-width: 737px) and (orientation: landscape) {
   .hero h1 {
     font-size: 15rem; }
   .hero h3 {
@@ -88,13 +91,10 @@ body {
   .story {
     margin-top: 30%; }
 
-  .first {
-    display: none; }
-
-  .second {
-    display: block;
-    max-width: 100px;
-    position: fixed;
-    right: 5%; } }
+  .signup img {
+    margin-top: 200px; } }
+@media only screen and (min-width: 1500px) {
+  .signup img {
+    margin-top: 350px; } }
 
 /*# sourceMappingURL=main.css.map */
