@@ -44,7 +44,7 @@ body {
   max-width: 100px;
   position: fixed;
   right: 5%;
-  margin-top: 4%; }
+  margin-top: -100px; }
 
 .story {
   margin-top: -20px; }
@@ -77,6 +77,9 @@ body {
     .pic img {
       max-width: 250px;
       margin-top: 2%; } }
+.signup img {
+  margin-top: 0; }
+
 @media only screen and (min-width: 715px) and (orientation: landscape) {
   .hero h1 {
     font-size: 15rem; }

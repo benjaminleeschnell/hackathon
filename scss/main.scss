@@ -64,7 +64,7 @@ background-color: black;
 	max-width: 100px;
 	position: fixed;
 	right: 5%;
-	margin-top: 4%;
+	margin-top: -100px;
 }
 
 .story {
@@ -111,6 +111,10 @@ background-color: black;
 	}
 }
 
+.signup img {
+	margin-top: 0;
+}
+
 @media only screen and (min-width: 715px) and (orientation: landscape) {
 	.hero {
 		h1 {
@@ -124,3 +128,4 @@ background-color: black;
 		margin-top: 30%;
 	}
 }
+
