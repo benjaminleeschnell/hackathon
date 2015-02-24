@@ -40,20 +40,21 @@ body {
   .pic img {
     max-width: 100px; }
 
-.signup img {
+.first img {
   max-width: 100px;
   position: fixed;
   right: 5%;
-  margin-top: -100px; }
+  margin-top: 50px; }
 
-.story {
-  margin-top: -20px; }
-  .story h4 {
-    color: #51A8B8;
-    font-family: "Open Sans"; }
-  .story p {
-    color: #852529;
-    font-family: "Open Sans"; }
+.second img {
+  display: none; }
+
+.story h4 {
+  color: #51A8B8;
+  font-family: "Open Sans"; }
+.story p {
+  color: #852529;
+  font-family: "Open Sans"; }
 
 .info {
   margin-bottom: 20%; }
@@ -77,8 +78,13 @@ body {
     .pic img {
       max-width: 250px;
       margin-top: 2%; } }
-.signup img {
-  margin-top: 0; }
+.first img {
+  display: none; }
+
+.second img {
+  max-width: 100px;
+  position: fixed;
+  right: 5%; }
 
 @media only screen and (min-width: 715px) and (orientation: landscape) {
   .hero h1 {
