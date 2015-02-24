@@ -40,16 +40,49 @@ body {
   .pic img {
     max-width: 100px; }
 
+.signup img {
+  max-width: 100px;
+  position: fixed;
+  right: 5%; }
+
 .story {
   margin-top: -20px; }
   .story h4 {
-    color: #51A8B8; }
+    color: #51A8B8;
+    font-family: "Open Sans"; }
   .story p {
-    color: white; }
+    color: #852529;
+    font-family: "Open Sans"; }
+
+.info {
+  margin-bottom: 20%; }
+  .info h4 {
+    color: #698927;
+    font-family: "Open Sans"; }
 
 /* Media Queries */
-@media only screen and (orientation: landscape) {
+@media only screen and (max-width: 714px) and (orientation: landscape) {
   .story {
     margin-top: 26%; } }
+@media only screen and (min-width: 715px) {
+  .hero h1 {
+    font-size: 10rem;
+    margin-top: 5%; }
+  .hero h3 {
+    font-size: 5rem; }
+
+  .pic {
+    margin-top: 50px; }
+    .pic img {
+      max-width: 250px;
+      margin-top: 2%; } }
+@media only screen and (min-width: 715px) and (orientation: landscape) {
+  .hero h1 {
+    font-size: 15rem; }
+  .hero h3 {
+    font-size: 7.3rem; }
+
+  .story {
+    margin-top: 30%; } }
 
 /*# sourceMappingURL=main.css.map */
