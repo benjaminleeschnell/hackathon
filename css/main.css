@@ -78,14 +78,6 @@ body {
     .pic img {
       max-width: 250px;
       margin-top: 2%; } }
-.first img {
-  display: none; }
-
-.second img {
-  max-width: 100px;
-  position: fixed;
-  right: 5%; }
-
 @media only screen and (min-width: 715px) and (orientation: landscape) {
   .hero h1 {
     font-size: 15rem; }
@@ -94,5 +86,13 @@ body {
 
   .story {
     margin-top: 30%; } }
+.first img {
+  display: none; }
+
+.second img {
+  display: block;
+  max-width: 100px;
+  position: fixed;
+  right: 5%; }
 
 /*# sourceMappingURL=main.css.map */
