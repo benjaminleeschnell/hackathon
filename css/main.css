@@ -71,7 +71,8 @@ body {
   .info img {
     border-radius: 20px;
     display: inline;
-    text-align: center; }
+    text-align: center;
+    max-width: 200px; }
 
 /* Media Queries */
 @media only screen and (max-width: 736px) and (orientation: landscape) {
