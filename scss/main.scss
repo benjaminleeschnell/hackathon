@@ -88,8 +88,22 @@ background-color: black;
 .info {
 	margin-bottom: 20%;
 	
-	h4 {color: $third-color;
-	font-family: $primary-font;}
+	h4 {
+		color: $third-color;
+		font-family: $primary-font;
+	}
+	p {
+		color: $primary-color;
+	}
+	ul {
+		color: $primary-color;
+		list-style-type: none;
+	}
+	img {
+		border-radius: 20px;
+		display: inline;
+		text-align: center;
+	}
 }
 
 /* Media Queries */
