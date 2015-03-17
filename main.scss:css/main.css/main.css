@@ -75,11 +75,7 @@ body {
     max-width: 200px; }
   .info p {
     color: #51A8B8;
-    font-size: 1.1em; }
-
-.bottom-sign-up img {
-  margin: 0 auto;
-  max-width: 300px; }
+    font-family: "Open Sans"; }
 
 /* Media Queries */
 @media only screen and (max-width: 736px) and (orientation: landscape) {
