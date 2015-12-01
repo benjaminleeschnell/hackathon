@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:200);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@font-face {
+  font-family: 'adamas';
+  src: url("../fonts/adamas.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/adamas.eot?#iefix") format("embedded-opentype"), url("../fonts/adamas.woff2") format("woff2"), url("../fonts/adamas.woff") format("woff"), url("../fonts/adamas.ttf") format("truetype"), url("../fonts/adamas.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+body {
+  background-color: black; }
+
+.hero {
+  height: 59vh;
+  width: 100%;
+  background-color: black; }
+  .hero h3 {
+    color: #51A8B8;
+    font-size: 2.4em;
+    font-family: "Dosis";
+    text-align: center;
+    line-height: 2.5;
+    margin-top: 5%; }
+    .hero h3:hover {
+      color: #698927; }
+  .hero h1 {
+    color: white;
+    font-family: 'adamas';
+    font-size: 5em;
+    text-align: center;
+    line-height: 2rem;
+    margin-top: 2%;
+    margin-bottom: 2%; }
+    .hero h1:hover {
+      color: #852529; }
+
+.pic {
+  text-align: center;
+  margin-top: 20px; }
+  .pic img {
+    max-width: 100px; }
+
+.signup img {
+  max-width: 100px;
+  position: fixed;
+  right: 5%;
+  margin-top: 50px; }
+
+.second {
+  display: none; }
+
+.story {
+  margin-top: 10%; }
+  .story h4 {
+    color: #51A8B8;
+    font-family: "Open Sans";
+    font-size: 2rem; }
+  .story p {
+    color: #852529;
+    font-family: "Open Sans";
+    font-size: 1.5rem; }
+
+.info {
+  margin-bottom: 20%; }
+  .info h4 {
+    color: #698927;
+    font-family: "Open Sans"; }
+  .info ul {
+    color: #51A8B8;
+    list-style-type: none; }
+  .info img {
+    border-radius: 20px;
+    display: table;
+    text-align: center;
+    max-width: 200px; }
+  .info p {
+    color: #51A8B8;
+    font-family: "Open Sans"; }
+
+/* Media Queries */
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+  .story {
+    margin-top: 26%; } }
+@media only screen and (min-width: 737px) {
+  .hero h1 {
+    font-size: 10rem;
+    margin-top: 5%; }
+  .hero h3 {
+    font-size: 5rem; }
+
+  .pic {
+    margin-top: 50px; }
+    .pic img {
+      max-width: 250px;
+      margin-top: 2%; } }
+@media only screen and (min-width: 737px) and (min-width: 737px) and (orientation: landscape) {
+  .hero h1 {
+    font-size: 15rem; }
+  .hero h3 {
+    font-size: 7.3rem; }
+
+  .story {
+    margin-top: 30%; }
+
+  .signup img {
+    margin-top: 200px; } }
+@media only screen and (min-width: 1500px) {
+  .signup img {
+    margin-top: 350px; } }
+
+/*# sourceMappingURL=main.css.map */
